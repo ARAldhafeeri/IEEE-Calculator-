@@ -1,0 +1,189 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 16480
+License: Customer
+
+Current time: 	Wed Sep 11 00:17:44 EDT 2019
+Time zone: 	Eastern Standard Time (America/Indianapolis)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 770 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	Ahmed
+User home directory: C:/Users/Ahmed
+User working directory: C:/Users/Ahmed/Desktop/School/fall18/FP_MULT
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.2
+RDI_DATADIR: C:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/Ahmed/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/Ahmed/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/Ahmed/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Ahmed/Desktop/School/fall18/FP_MULT/vivado.log
+Vivado journal file location: 	C:/Users/Ahmed/Desktop/School/fall18/FP_MULT/vivado.jou
+Engine tmp dir: 	C:/Users/Ahmed/Desktop/School/fall18/FP_MULT/.Xil/Vivado-16480-LAPTOP-NO2D19MF
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.2
+XILINX_SDK: C:/Xilinx/SDK/2018.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	148 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 454 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// [GUI Memory]: 40 MB (+39363kb) [00:00:05]
+// [Engine Memory]: 307 MB (+170007kb) [00:00:05]
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 63 MB (+22101kb) [00:00:48]
+// [Engine Memory]: 454 MB (+138744kb) [00:00:48]
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Ahmed\Desktop\School\fall18\FP_MULT\FP_MULT.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Ahmed/Desktop/School/fall18/FP_MULT/FP_MULT.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 478 MB. GUI used memory: 34 MB. Current time: 9/11/19 12:17:50 AM EDT
+// [Engine Memory]: 490 MB (+14029kb) [00:00:58]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Ahmed/Desktop/School/fall18/FP_MULT/FP_MULT.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/Ahmed/Desktop/FP_MULT' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// [Engine Memory]: 517 MB (+1776kb) [00:01:13]
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (bx)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 544 MB (+1965kb) [00:01:21]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'. INFO: [IP_Flow 19-2338] Canceling the changes to the IP catalog. Reverting the catalog back to its previous state. INFO: [IP_Flow 19-2340] The IP catalog has been returned to its previous state. 
+// Tcl Message: INFO: [Common 17-344] 'open_project' was cancelled 
+// CommandFailedException: ERROR: [Common 17-69] Command failed:  
+// HMemoryUtils.trashcanNow. Engine heap size: 563 MB. GUI used memory: 38 MB. Current time: 9/11/19 12:18:24 AM EDT
+// Elapsed time: 13 seconds
+dismissDialog("Open Project"); // bx (ck)
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 0, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 0, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// PAPropertyPanels.initPanels (constrs_1) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 1, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 1, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 1, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 1, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 1, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 1, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 0, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 0, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 0, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 0, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 0, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 0, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 1, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 1, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 1, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 1, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 1, false); // B (D, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // aa (ck)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_PROJECT, "Open..."); // ad (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// [Engine Memory]: 578 MB (+6307kb) [00:01:56]
+dismissFileChooser();
+// 'i' command handler elapsed time: 4 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent"); // aa (ck)
+selectMenuItem(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "C:/Users/Ahmed/mutliplication/mutliplication.xpr"); // ad (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 582 MB. GUI used memory: 36 MB. Current time: 9/11/19 12:19:04 AM EDT
+// Opening Vivado Project: C:/Users/Ahmed/mutliplication/mutliplication.xpr. Version: Vivado v2018.2 
+// bx (ck):  Open Project : addNotify
+selectButton("PAResourceOtoP.PABaseTab_WOULD_YOU_LIKE_TO_CLOSE_CURRENTLY_Yes", "Yes"); // JButton (A, G)
+// Tcl Message: close_project 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Ahmed/mutliplication/mutliplication.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// Project name: mutliplication; location: C:/Users/Ahmed/mutliplication; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 764.250 ; gain = 23.715 
+// [GUI Memory]: 72 MB (+6116kb) [00:02:16]
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 615 MB (+9044kb) [00:02:17]
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (mutliplication.vhd) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mutliplication(Behavioral) (mutliplication.vhd)]", 1, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mutliplication(Behavioral) (mutliplication.vhd)]", 1, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mutliplication(Behavioral) (mutliplication.vhd)]", 1, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mutliplication(Behavioral) (mutliplication.vhd)]", 1, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mutliplication(Behavioral) (mutliplication.vhd)]", 1, false); // B (D, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 629 MB. GUI used memory: 40 MB. Current time: 9/11/19 12:19:20 AM EDT
+selectCodeEditor("mutliplication.vhd", 169, 122); // ce (w, ck)
+// [GUI Memory]: 76 MB (+365kb) [00:05:59]
+// [GUI Memory]: 80 MB (+521kb) [00:11:35]
+// [GUI Memory]: 85 MB (+419kb) [00:19:54]
+// Elapsed time: 1296 seconds
+selectCodeEditor("mutliplication.vhd", 92, 153); // ce (w, ck)
+// Elapsed time: 66 seconds
+selectCodeEditor("mutliplication.vhd", 129, 118); // ce (w, ck)
+// Elapsed time: 290 seconds
+selectCodeEditor("mutliplication.vhd", 134, 158); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 630 MB. GUI used memory: 40 MB. Current time: 9/11/19 12:49:21 AM EDT
+// Elapsed time: 543 seconds
+selectCodeEditor("mutliplication.vhd", 150, 150); // ce (w, ck)
+// [GUI Memory]: 89 MB (+503kb) [00:42:58]
+// HMemoryUtils.trashcanNow. Engine heap size: 631 MB. GUI used memory: 38 MB. Current time: 9/11/19 1:52:31 AM EDT
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2267967 ms. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 631 MB. GUI used memory: 37 MB. Current time: 9/11/19 4:52:38 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 631 MB. GUI used memory: 36 MB. Current time: 9/11/19 10:44:49 AM EDT
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 4550ms to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1148 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 43208 ms. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 631 MB. GUI used memory: 37 MB. Current time: 9/11/19 11:14:49 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 631 MB. GUI used memory: 37 MB. Current time: 9/11/19 11:59:04 AM EDT
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2387384 ms. Increasing delay to 5000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 631 MB. GUI used memory: 37 MB. Current time: 9/11/19 12:29:04 PM EDT

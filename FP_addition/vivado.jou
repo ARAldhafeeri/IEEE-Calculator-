@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Nov 20 18:03:35 2018
+# Process ID: 25396
+# Current directory: C:/Users/Ahmed/Desktop/FP_addition
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18016 C:\Users\Ahmed\Desktop\FP_addition\FP_addition.xpr
+# Log file: C:/Users/Ahmed/Desktop/FP_addition/vivado.log
+# Journal file: C:/Users/Ahmed/Desktop/FP_addition\vivado.jou
+#-----------------------------------------------------------sstart_guiopen_project C:/Users/Ahmed/Desktop/FP_addition/FP_addition.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source additiontb.tcl
+close_sim
+launch_simulation
+source additiontb.tcl
+close_sim
+launch_simulation
+source additiontb.tcl
+close_sim
+launch_simulation
+source additiontb.tcl
